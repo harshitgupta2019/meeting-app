@@ -6,7 +6,7 @@ function ViewBookings() {
   const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
-    axios.get('https://meeting-app-gold.vercel.app/api/user-bookings')
+    axios.get('http://localhost:3001/api/user-bookings')
       .then((response) => {
         setBookings(response.data);
       })

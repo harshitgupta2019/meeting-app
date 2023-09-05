@@ -7,7 +7,7 @@ function DisplayAvailableRooms() {
 
   useEffect(() => {
     // Fetch available rooms data from your backend
-    axios.get('https://meeting-app-gold.vercel.app/api/rooms')
+    axios.get('http://localhost:3001/api/rooms')
       .then((response) => {
         setRooms(response.data);
       })
