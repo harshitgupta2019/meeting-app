@@ -29,7 +29,9 @@ const writeDataToDB = (data) => {
     console.error('Error writing data to db.json:', err);
   }
 };
-
+app.get('/',(req, res) => {
+  res.send("Successful");
+})
 // Get a list of available meeting rooms
 app.get('/api/rooms', (req, res) => {
   const data = readDataFromDB();
