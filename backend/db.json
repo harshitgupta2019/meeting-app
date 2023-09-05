@@ -1,0 +1,45 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room A",
+      "availableTimeSlots": [
+        "14:00-14:30",
+        "9:00-9:30"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Room B",
+      "availableTimeSlots": [
+        "9:00-9:30"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Room C",
+      "availableTimeSlots": [
+        "10:30-11:00",
+        "13:00-13:30",
+        "16:00-16:30"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": 2,
+      "room": "Room B",
+      "timeSlot": "9:30-10:00"
+    },
+    {
+      "id": 3,
+      "room": "Room B",
+      "timeSlot": "15:00-15:30"
+    },
+    {
+      "id": 4,
+      "room": "Room A",
+      "timeSlot": "10:00-10:30"
+    }
+  ]
+}

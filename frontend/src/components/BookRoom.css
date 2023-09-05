@@ -1,0 +1,87 @@
+/* BookRoom.css */
+
+.book-room-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-room-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.book-room-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.booking-status {
+  color: #008000;
+  margin-top: 10px;
+}
+
+.available-rooms {
+  margin-top: 20px;
+}
+
+.room-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.room-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.room-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.time-slot-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.time-slot-item {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,43 @@
+
+.cancel-booking-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.cancel-booking-container h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+/* Styles for the form elements */
+.cancel-booking-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles for input fields */
+.cancel-booking-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styles for the submit button */
+.cancel-booking-container button[type="submit"] {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-booking-container button[type="submit"]:hover {
+  background-color: #c82333;
+}
