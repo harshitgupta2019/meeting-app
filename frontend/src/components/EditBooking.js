@@ -18,7 +18,7 @@ function EditBooking() {
     setNewTimeSlot(''); // Clear newTimeSlot
 
     // Update the booking with the new time slot
-    axios.put(`http://localhost:3001/api/bookings/${bookingId}`, { newTimeSlot })
+    axios.put(`https://meeting-app-gold.vercel.app/api/bookings/${bookingId}`, { newTimeSlot })
       .then((response) => {
         setSuccessMessage('Booking successfully updated.');
         console.log(response);

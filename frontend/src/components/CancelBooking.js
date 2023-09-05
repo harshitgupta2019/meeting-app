@@ -15,7 +15,7 @@ function CancelBooking() {
     setSuccessMessage('');
 
     // Cancel the booking
-    axios.delete(`http://localhost:3001/api/bookings/${bookingId}`)
+    axios.delete(`https://meeting-app-gold.vercel.app/api/bookings/${bookingId}`)
       .then((res) => {
         setSuccessMessage('Booking canceled successfully.');
         console.log(res);

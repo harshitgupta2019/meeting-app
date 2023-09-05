@@ -11,7 +11,7 @@ function BookRoom() {
 
   useEffect(() => {
     // Fetch available rooms data from your backend
-    axios.get('http://localhost:3001/api/rooms')
+    axios.get('https://meeting-app-gold.vercel.app/api/rooms')
       .then((response) => {
         setRooms(response.data);
       })
@@ -32,11 +32,11 @@ function BookRoom() {
     e.preventDefault();
 
     // Validate booking with the backend
-    axios.post('http://localhost:3001/api/validate-booking', { room, timeSlot })
+    axios.post('https://meeting-app-gold.vercel.app/api/validate-booking', { room, timeSlot })
       .then((response) => {
         if (response.data.isValid) {
           // If validation passes, proceed to create the booking
-          axios.post('http://localhost:3001/api/bookings', { room, timeSlot })
+          axios.post('https://meeting-app-gold.vercel.app/api/bookings', { room, timeSlot })
             .then(() => {
               // Handle successful booking
               setBookingStatus('Booking successful');
